@@ -11,7 +11,9 @@
   </head>
   <body>
     <%= render './share/navbar' %>
-    <%= yield %>
+    <div class="background-page">
+      <%= yield %>
+    </div>
     <%= javascript_include_tag 'application' %>
 
     <%= javascript_pack_tag 'application' %>
