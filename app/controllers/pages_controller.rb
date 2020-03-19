@@ -7,6 +7,7 @@ class PagesController < ApplicationController
         lat: location.latitude,
         lng: location.longitude
       }
+    end
   end
 
   def servicios
