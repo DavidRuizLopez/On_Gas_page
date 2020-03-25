@@ -12,4 +12,7 @@ class PagesController < ApplicationController
 
   def servicios
   end
+
+  def contact
+  end
 end
