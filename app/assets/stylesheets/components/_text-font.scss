@@ -9,3 +9,10 @@ h1 h2 {
 p li {
   font-family: 'Baloo Tammudu 2', cursive;
 }
+
+a {
+  color: #D94453;
+  &:hover {
+    color: white;
+  }
+}
