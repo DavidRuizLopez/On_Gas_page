@@ -13,6 +13,6 @@ class PagesController < ApplicationController
   def servicios
   end
 
-  def contact
+  def contactos
   end
 end
