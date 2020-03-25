@@ -7,4 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Location.destroy_all
 
-Location.create(address: 'calle plata 6, Madrid')
+Location.create(address: 'torrejon de ardoz, Madrid')
