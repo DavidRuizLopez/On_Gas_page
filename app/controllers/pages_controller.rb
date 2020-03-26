@@ -15,4 +15,11 @@ class PagesController < ApplicationController
 
   def contactos
   end
+
+  def path
+   data = params[:body]
+   subject=params[:subject]
+   user = params[:email]
+   UserMailer.mail_method(data,user,subject).deliver
+  end
 end
