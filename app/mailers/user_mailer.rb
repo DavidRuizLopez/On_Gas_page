@@ -10,4 +10,16 @@ class UserMailer < ApplicationMailer
 
     mail to: "to@example.org"
   end
+
+  # def path
+  #   data = params[:body]
+  #   subject=params[:subject]
+  #   user = params[:email]
+  #   mail_method(data,user,subject).deliver
+  # end
+
+  def mail_method(data,email,subject)
+    @body=data
+    mail(to: email, subject: subject)
+  end
 end
